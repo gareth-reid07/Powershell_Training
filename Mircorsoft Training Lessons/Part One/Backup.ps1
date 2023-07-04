@@ -2,7 +2,7 @@
 
 Param(
     [string]$Path = './app',
-    [string]$DestinationPath = './'
+    [string]$DestinationPath = './',
 )
 #Checks if the source Path exists and if not then it returns the message
 If(-Not (Test-Path $Path))
